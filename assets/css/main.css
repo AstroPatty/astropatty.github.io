@@ -1584,8 +1584,8 @@ input, select, textarea {
 		    grid-template-columns: repeat(3, 1fr);
 		    gap: 20px; /* Adjust the gap as needed */
 		}
-		@media screen and (max-width: 768px) {
-			#.repo-cards-container {
+		@media screen and (max-width: 736px) {
+			.repo-cards-container {
 				grid-template-columns: repeat(2, 1fr);
 			}
 		}
