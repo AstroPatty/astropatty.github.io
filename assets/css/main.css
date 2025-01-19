@@ -1483,7 +1483,8 @@ input, select, textarea {
 			}
 			#header .content .social a {
 				display: inline-flex;
-				gap: 0.5rem;
+				padding-left: 0.5rem;
+				padding-right: 0.5rem;
 				height: 4rem;
 			}
 				
