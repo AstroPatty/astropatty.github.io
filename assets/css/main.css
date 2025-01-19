@@ -1589,6 +1589,11 @@ input, select, textarea {
 				grid-template-columns: repeat(2, 1fr);
 			}
 		}
+		@media screen and (max-width: 480px) {
+			.repo-cards-container {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
 
 		.repo-card {
 		    /* Add any additional styling for the repo cards here */
