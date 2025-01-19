@@ -1483,8 +1483,6 @@ input, select, textarea {
 			}
 			#header .content .social a {
 				display: inline-flex;
-				padding-left: 0.5rem;
-				padding-right: 0.5rem;
 				height: 4rem;
 			}
 				
@@ -1585,6 +1583,11 @@ input, select, textarea {
 		    display: grid;
 		    grid-template-columns: repeat(3, 1fr);
 		    gap: 20px; /* Adjust the gap as needed */
+		}
+		@media screen and (max-width: 768px) {
+			#.repo-cards-container {
+				grid-template-columns: repeat(2, 1fr);
+			}
 		}
 
 		.repo-card {
