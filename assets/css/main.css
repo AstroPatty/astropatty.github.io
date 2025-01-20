@@ -1583,6 +1583,11 @@ input, select, textarea {
 			height: 50rem;
 			allow-fullscreen: true;
 		}
+		@media screen and (max-width: 480px) {
+			#main article .cv {
+				height: 30rem;
+			}
+		}
 		.repo-cards-container {
 		    display: grid;
 		    grid-template-columns: repeat(3, 1fr);
