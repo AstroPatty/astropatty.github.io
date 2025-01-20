@@ -1585,7 +1585,7 @@ input, select, textarea {
 		}
 		@media screen and (max-width: 480px) {
 			#main article .cv {
-				height: 30rem;
+				heignt: 20rem;
 			}
 		}
 		.repo-cards-container {
